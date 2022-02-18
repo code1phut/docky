@@ -1,3 +1,5 @@
+<?php
+
 namespace Larky\Core;
  
 use Illuminate\Support\ServiceProvider;
