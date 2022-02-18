@@ -1,21 +1,25 @@
-namespace Ducky\Core;
-
+namespace Larky\Core;
+ 
 use Illuminate\Support\ServiceProvider;
-
-class CoreServiceProvider extends ServiceProvider {
+ 
+ 
+class CoreServiceProvider extends ServiceProvider{
     /**
      * Bootstrap the application services.
+     *
      * @return void
      */
-     public function boot() {
-
-     }
-
-     /**
-      * Register the application services
-      * @return void
-      */
-    public function register() {
-
+    public function boot()
+    {
+    }
+ 
+    /**
+     * Register the application services.
+     *
+     * @return void
+     */
+    public function register()
+    {
+ 
     }
 }
