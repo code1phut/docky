@@ -1,0 +1,26 @@
+{
+    "name": "ducky/repository",
+    "description": "Library repository fot laravel",
+    "type": "library",
+    "license": "BSD-2-Clause",
+    "authors": [
+        {
+            "name": "Nguyen Quang Anh",
+            "email": "anhnq.info@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Ducky\\Core": "/"
+        }
+    },
+    "extra": {
+        "laravel": {
+          "providers": [
+            "Ducky\\Core\\CoreServiceProvider"
+          ]
+        }
+      }
+}
